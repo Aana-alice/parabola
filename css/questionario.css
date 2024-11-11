@@ -1,0 +1,156 @@
+.nav {
+  text-align: center;
+  background-color: #252525;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  color: #C09578;
+}
+
+.conteudo {
+  font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  
+
+
+  text-align: justify;
+  align-items: center;
+  color: #252525;
+  font-size: 20px;
+  border: 1px solid #252525;
+  border-width: 0px 1px 1px 1px;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+
+  position: relative;
+}
+
+
+
+
+
+.quiz-container {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+  border:10px solid;
+  margin:10px;
+  
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.pergunta-container h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+
+.botao {
+  background-color: #C09578;
+  color: #252525;
+  border: 3px solid #ffe3d1;
+  /*padding: 10px 20px;*/
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  box-shadow: -5px 6px #ffe3d1;
+  border-radius: 50px;
+
+}
+
+.botao:focus,
+.botao:hover {
+  background: #252525;
+  color: #C09578;
+  border-color: #C09578;
+  box-shadow: none;
+}
+
+#eu{
+  width: 120px;
+  height: 120px;
+}
+
+#resultado h2 {
+  text-align: center;
+  color: #333;
+}
+
+#pontuacao {
+  font-size: 1.5rem;
+  color: #28a745;
+}
+
+.footer {
+  text-align: center;
+  background-color: #252525;
+  height: 30px;
+  width: 100%;
+  color: #C09578;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0px;
+  
+}
+
+.botao-resposta {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: -5px 6px #be8e6d;
+  border: 3px solid #C09578;
+  color: #C09578;
+  font-weight: 400;
+  font-size: 1em;
+  transition: all ease-in 0.2s;
+  border-radius: 50px;
+  cursor: pointer;
+
+}
+
+.botao-resposta:focus,
+.botao-resposta:hover {
+  background: #C09578;
+  color: #FFF;
+  border-color: #C09578;
+  box-shadow: none;
+}

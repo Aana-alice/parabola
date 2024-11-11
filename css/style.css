@@ -1,0 +1,150 @@
+.nav {
+  text-align: center;
+  background-color: #252525;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  color: #C09578;
+}
+
+.banner {
+  text-align: center;
+  color: #252525;
+  height: 70px;
+  font-size: 48px;
+  border: 1px solid #252525;
+  border-width: 0px 1px 1px 1px;
+}
+
+.conteudo {
+  text-align: justify;
+  align-items: center;
+  color: #252525;
+  font-size: 20px;
+  border: 1px solid #252525;
+  border-width: 0px 1px 1px 1px;
+  padding: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #252525;
+  height: 30px;
+  color: #C09578;
+  font-size: 14px;
+  height: 30px;
+}
+
+div#slide {
+  padding-bottom: 75%;
+  /* 540/720 */
+}
+
+.tiposdesolo {
+
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#solos {
+  margin-top: 20px;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+/*Explicações dos solos*/
+
+#texto1 {
+  display: none;
+  margin-top: 10px;
+}
+
+#texto2 {
+  display: none;
+  margin-top: 10px;
+}
+
+#texto3 {
+  display: none;
+  margin-top: 10px;
+}
+
+#texto4 {
+  display: none;
+  margin-top: 10px;
+}
+
+
+/*Estilização dos botões que mostram a interpretação de cada tipo de solo da parábola*/
+.explicacao {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: -5px 6px #be8e6d;
+  border: 3px solid #C09578;
+  color: #C09578;
+  font-weight: 400;
+  font-size: 1em;
+  transition: all ease-in 0.2s;
+  border-radius: 50px;
+}
+
+.explicacao:hover,
+.explicacao:focus {
+  background: #C09578;
+  color: #FFF;
+  border-color: #C09578;
+  box-shadow: none;
+}
+
+/*Versões da parábola*/
+
+#parabola1 {
+  display: none;
+  margin-top: 10px;
+}
+
+#parabola2 {
+  display: none;
+  margin-top: 10px;
+}
+
+#parabola3 {
+  display: none;
+  margin-top: 10px;
+}
+
+.parabola {
+  text-align: center;
+  color: #C09578;
+  font-size: 16px;
+
+  border-color: white;
+
+  display: inline-block;
+  transition: all ease-in 0.2s;
+  padding: none;
+
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+.parabola:hover,
+.parabola:focus {
+  background: #C09578;
+  color: #FFF;
+  border-color: #C09578;
+  box-shadow: none;
+}
